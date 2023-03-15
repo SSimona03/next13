@@ -108,7 +108,7 @@ self.__RSC_MANIFEST={
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "chunks": [
-          "app/page:app/page"
+          "app/[id]/page:app/[id]/page"
         ],
         "name": "*",
         "async": false
@@ -116,7 +116,7 @@ self.__RSC_MANIFEST={
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "chunks": [
-          "app/page:app/page"
+          "app/[id]/page:app/[id]/page"
         ],
         "name": "",
         "async": false
@@ -124,7 +124,7 @@ self.__RSC_MANIFEST={
       "default": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "chunks": [
-          "app/page:app/page"
+          "app/[id]/page:app/[id]/page"
         ],
         "name": "default",
         "async": false
@@ -134,7 +134,7 @@ self.__RSC_MANIFEST={
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "name": "*",
         "async": false
@@ -142,7 +142,7 @@ self.__RSC_MANIFEST={
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "name": "",
         "async": false
@@ -150,7 +150,7 @@ self.__RSC_MANIFEST={
       "default": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "name": "default",
         "async": false
@@ -185,7 +185,7 @@ self.__RSC_MANIFEST={
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/page": [
+    "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/[id]/page": [
       "static/css/_app-client_app_globals_css.css"
     ],
     "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/layout": [
@@ -193,7 +193,7 @@ self.__RSC_MANIFEST={
       "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_jsx_import_Asul_argument-b3e879.css",
       "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_jsx_import_Montserrat_ar-51f3c4.css"
     ],
-    "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/[id]/page": [
+    "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/page": [
       "static/css/_app-client_app_globals_css.css"
     ]
   },
@@ -392,7 +392,7 @@ self.__RSC_MANIFEST={
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/dist/client/image.js": {
     "id": "(app-client)/./node_modules/next/dist/client/image.js",
     "chunks": [
-      "app/page:app/page"
+      "app/[id]/page:app/[id]/page"
     ],
     "name": "*",
     "async": false
@@ -400,7 +400,7 @@ self.__RSC_MANIFEST={
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/dist/esm/client/image.js": {
     "id": "(app-client)/./node_modules/next/dist/client/image.js",
     "chunks": [
-      "app/page:app/page"
+      "app/[id]/page:app/[id]/page"
     ],
     "name": "*",
     "async": false
@@ -408,7 +408,7 @@ self.__RSC_MANIFEST={
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/dist/client/image.js#": {
     "id": "(app-client)/./node_modules/next/dist/client/image.js",
     "chunks": [
-      "app/page:app/page"
+      "app/[id]/page:app/[id]/page"
     ],
     "name": "",
     "async": false
@@ -416,7 +416,7 @@ self.__RSC_MANIFEST={
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/dist/esm/client/image.js#": {
     "id": "(app-client)/./node_modules/next/dist/client/image.js",
     "chunks": [
-      "app/page:app/page"
+      "app/[id]/page:app/[id]/page"
     ],
     "name": "",
     "async": false
@@ -424,7 +424,7 @@ self.__RSC_MANIFEST={
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/dist/client/image.js#default": {
     "id": "(app-client)/./node_modules/next/dist/client/image.js",
     "chunks": [
-      "app/page:app/page"
+      "app/[id]/page:app/[id]/page"
     ],
     "name": "default",
     "async": false
@@ -432,7 +432,7 @@ self.__RSC_MANIFEST={
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/dist/esm/client/image.js#default": {
     "id": "(app-client)/./node_modules/next/dist/client/image.js",
     "chunks": [
-      "app/page:app/page"
+      "app/[id]/page:app/[id]/page"
     ],
     "name": "default",
     "async": false
@@ -440,7 +440,7 @@ self.__RSC_MANIFEST={
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/dist/client/link.js": {
     "id": "(app-client)/./node_modules/next/dist/client/link.js",
     "chunks": [
-      "app/page:app/page"
+      "app/layout:app/layout"
     ],
     "name": "*",
     "async": false
@@ -448,7 +448,7 @@ self.__RSC_MANIFEST={
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/dist/esm/client/link.js": {
     "id": "(app-client)/./node_modules/next/dist/client/link.js",
     "chunks": [
-      "app/page:app/page"
+      "app/layout:app/layout"
     ],
     "name": "*",
     "async": false
@@ -456,7 +456,7 @@ self.__RSC_MANIFEST={
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/dist/client/link.js#": {
     "id": "(app-client)/./node_modules/next/dist/client/link.js",
     "chunks": [
-      "app/page:app/page"
+      "app/layout:app/layout"
     ],
     "name": "",
     "async": false
@@ -464,7 +464,7 @@ self.__RSC_MANIFEST={
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/dist/esm/client/link.js#": {
     "id": "(app-client)/./node_modules/next/dist/client/link.js",
     "chunks": [
-      "app/page:app/page"
+      "app/layout:app/layout"
     ],
     "name": "",
     "async": false
@@ -472,7 +472,7 @@ self.__RSC_MANIFEST={
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/dist/client/link.js#default": {
     "id": "(app-client)/./node_modules/next/dist/client/link.js",
     "chunks": [
-      "app/page:app/page"
+      "app/layout:app/layout"
     ],
     "name": "default",
     "async": false
@@ -480,7 +480,7 @@ self.__RSC_MANIFEST={
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/dist/esm/client/link.js#default": {
     "id": "(app-client)/./node_modules/next/dist/client/link.js",
     "chunks": [
-      "app/page:app/page"
+      "app/layout:app/layout"
     ],
     "name": "default",
     "async": false

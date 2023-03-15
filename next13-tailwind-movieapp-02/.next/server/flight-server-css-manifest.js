@@ -1,6 +1,6 @@
 self.__RSC_CSS_MANIFEST={
   "__entry_css_mods__": {
-    "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/[id]/page": [
+    "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/page": [
       "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/globals.css",
       "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Montserrat\",\"arguments\":[{\"weight\":[\"400\"],\"variable\":[\"--font-montserrat\"]}],\"variableName\":\"montserrat\"}"
     ],
@@ -8,12 +8,12 @@ self.__RSC_CSS_MANIFEST={
       "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/globals.css",
       "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Montserrat\",\"arguments\":[{\"weight\":[\"400\"],\"variable\":[\"--font-montserrat\"]}],\"variableName\":\"montserrat\"}"
     ],
-    "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/page": [
+    "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/[id]/page": [
       "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/globals.css",
       "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Montserrat\",\"arguments\":[{\"weight\":[\"400\"],\"variable\":[\"--font-montserrat\"]}],\"variableName\":\"montserrat\"}"
     ]
   },
-  "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/[id]/page.jsx": [
+  "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/page.jsx": [
     "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/globals.css"
   ],
   "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/layout.jsx": [
@@ -21,7 +21,7 @@ self.__RSC_CSS_MANIFEST={
     "/Users/samy/programming/next13/next13-tailwind-movieapp-02/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Asul\",\"arguments\":[{\"weight\":[\"400\"],\"variable\":\"--font-asul\"}],\"variableName\":\"asul\"}",
     "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/globals.css"
   ],
-  "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/page.jsx": [
+  "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/[id]/page.jsx": [
     "/Users/samy/programming/next13/next13-tailwind-movieapp-02/app/globals.css"
   ]
 }

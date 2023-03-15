@@ -1,6 +1,14 @@
 import "../globals.css"
 import Image from "next/image";
 
+export async function generateStaticParams(){
+    const data = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}`)
+    const res = await data.json();
+
+    return res.results.map((m) => ({ m: toString(m.id) }) )
+
+}
+
 export default async function MovieDetail({params}){
     const {id} = params;
     const imgPath2 = "https://www.themoviedb.org/t/p/original"
