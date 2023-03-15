@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  
+*{
+    margin: 0px;
+    color: rgb(194, 186, 186);
+}
+
+
+
+.nav{
+   
+    background-color: rgb(12, 14, 14);
+    color: rgb(214, 209, 209);
+    height: 2rem;
+}
+
+.poster{
+    width: auto;
+    height: auto;
+}
