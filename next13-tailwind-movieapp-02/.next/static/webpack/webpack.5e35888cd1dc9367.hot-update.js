@@ -71,7 +71,7 @@ self["webpackHotUpdate_N_E"]("webpack",{},
 /******/ 
 /******/ /* webpack/runtime/getFullHash */
 /******/ !function() {
-/******/ 	__webpack_require__.h = function() { return "0ee1d2557bcca32e"; }
+/******/ 	__webpack_require__.h = function() { return "5bcc85bef4945eb4"; }
 /******/ }();
 /******/ 
 /******/ /* webpack/runtime/make namespace object */
@@ -142,7 +142,7 @@ self["webpackHotUpdate_N_E"]("webpack",{},
 /******/ 	};
 /******/ 	
 /******/ 	__webpack_require__.f.miniCss = function(chunkId, promises) {
-/******/ 		var cssChunks = {"_app-client_node_modules_next_font_google_target_css_path_app_layout_jsx_import_Montserrat_ar-51f3c4":1,"_app-client_node_modules_next_font_google_target_css_path_app_layout_jsx_import_Asul_argument-b3e879":1,"_app-client_app_globals_css":1};
+/******/ 		var cssChunks = {"_app-client_app_globals_css":1,"_app-client_node_modules_next_font_google_target_css_path_app_layout_jsx_import_Montserrat_ar-51f3c4":1,"_app-client_node_modules_next_font_google_target_css_path_app_layout_jsx_import_Asul_argument-b3e879":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(function() {
